@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <!-- Sidebar Menu -->
+    {% include sidebar-menu.html %}
+
+    <!-- Following Menu -->
+    {% include following-menu.html %}
+
+    <div class="pusher">
+      <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui container">
+          <div class="ui large secondary inverted pointing menu">
+
+            {% include menu-loop.html %}
+
+            <a class="toc right item">
+              <i class="sidebar icon"></i>
+            </a>
+            <!--<a class="ui inverted button">Log in</a>
+            <a class="ui inverted button">Sign Up</a>-->
+
+          </div>
+        </div>
+        <div class="ui text container">
+          <h1 class="ui inverted header">
+            Astral
+          </h1>
+          <h2>Focus on your visitors. Not on bureocracy.</h2>
+          {{ content }}
+        </div>
+        <div class="ui center aligned container" style="margin-top: 25vh">
+           &copy;  2017 @anderfernandes
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
