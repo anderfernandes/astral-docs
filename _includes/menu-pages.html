@@ -1,29 +1,15 @@
-<div class="ui borderless main large menu">
-    <div class="ui text container">
-
-      {% include menu-loop.html %}
-
-      <a class="toc right item">
-        <i class="sidebar icon"></i>
-      </a>
-
-      <!--<a href="#" class="ui right floated dropdown item" tabindex="0">
-        Dropdown <i class="dropdown icon"></i>
-        <div class="menu" tabindex="-1">
-          <div class="item">Link Item</div>
-          <div class="item">Link Item</div>
-          <div class="divider"></div>
-          <div class="header">Header Item</div>
-          <div class="item">
-            <i class="dropdown icon"></i>
-            Sub Menu
-            <div class="menu">
-              <div class="item">Link Item</div>
-              <div class="item">Link Item</div>
-            </div>
-          </div>
-          <div class="item">Link Item</div>
+<div class="ui borderless main huge inverted menu">
+  <div class="ui container">
+    {% include menu-loop.html %}
+    <div class="right menu">
+      <div class="right item">
+        <div class="ui inverted button">
+          {{ site.current | escape }}
         </div>
-      </a>-->
+      </div>
+      <a class="toc right item">
+        <i class="large sidebar icon"></i>
+      </a>
     </div>
   </div>
+</div>

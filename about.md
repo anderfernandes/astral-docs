@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+label: About
 permalink: /about
 icon: info circle
 ---

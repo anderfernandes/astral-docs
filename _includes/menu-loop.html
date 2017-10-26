@@ -1,31 +1,16 @@
 <a href="{{ "/" | relative_url }}" class="header item">
   <!--<img class="logo" src="https://semantic-ui.com/examples/assets/images/logo.png" style="margin-right:1.5em">-->
-  <i class="sun icon"></i>{{ site.title | escape }}
+  <i class="large sun icon"></i>{{ site.title | escape }}
 </a>
 <a href="/" class="{% if page.url == '/' %}active {% endif %}item"><i class="home icon"></i>Home</a>
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
 {% for path in page_paths %}
   {% assign my_page = site.pages | where: "path", path | first %}
-  {% if my_page.title %}
+  {% if my_page.label %}
   <a class="{% if my_page.url == page.url %}active {% endif %}item" href="{{ my_page.url | relative_url }}">
     <i class="{{ my_page.icon }} icon"></i>
-    {{ my_page.title | escape }}
+    {{ my_page.label | escape }}
   </a>
   {% endif %}
 {% endfor %}
-<div class="right menu">
-  <div class="item">
-    <div class="ui inverted button">
-      {{ site.current | escape }}
-    </div>
-  </div>
-</div>
-<!--<div class="right menu">
-  <div class="item">
-    <div class="ui inverted right labeled icon button">
-      {{ site.current | escape }}
-      <i class="down arrow icon"></i>
-    </div>
-  </div>
-</div>-->

@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 icon: home
 ---
 
@@ -8,6 +9,6 @@ icon: home
 <a href="/about" class="ui huge inverted basic button">
   <i class="info circle icon"></i> About
 </a>
-<a href="/docs/" class="ui huge inverted basic button">
+<a href="/docs/{{ site.current | escape }}/" class="ui huge inverted basic button">
   <i class="book icon"></i> Docs
 </a>

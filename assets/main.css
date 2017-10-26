@@ -51,6 +51,10 @@
   padding-bottom: 5em;
 }
 
+.borderless.main.menu {
+  border-radius: 0;
+}
+
 .secondary.pointing.menu .toc.item,
 .top.fixed.menu .toc.item,
 .borderless.main.menu .toc.item {
@@ -110,8 +114,7 @@
   }
 
   /* Hide menu items on mobile screen sizes */
-  .borderless.main.menu .item,
-  .borderless.main.menu .menu,
+  .borderless.main.huge.inverted.menu .item,
   .top.fixed.menu .item,
   .top.fixed.menu .menu,
   .secondary.pointing.menu .item,
@@ -120,21 +123,28 @@
   }
 
   /* Show menu icon on mobile screen sizes */
-  .secondary.pointing.menu .toc.item,
+  .borderless.main.huge.inverted.menu .toc.item,
   .top.fixed.menu .toc.item,
-  .borderless.main.menu .toc.item {
+  .secondary.pointing.menu .toc.item, {
     display: block;
   }
 
   /* Show site name on menu at all times */
-  .borderless.main.menu .header.item,
+  .borderless.main.huge.inverted.menu .header.item,
   .top.fixed.menu .header.item,
   .secondary.pointing.menu .header.item {
     display: block;
   }
 
+  /* Show site name on menu at all times */
+  .borderless.main.huge.inverted.menu .right.item,
+  .top.fixed.menu .right.item,
+  .secondary.pointing.menu .right.item {
+    display: block;
+  }
+
   .masthead.segment {
-    min-height: 350px;
+    min-height: 100vh;
   }
   .masthead h1.ui.header {
     font-size: 2em;

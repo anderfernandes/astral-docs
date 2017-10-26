@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>{% if page.title %}{{ page.title | escape }} | Astral{% else %}Home | Astral{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }} | Astral | {{ site.current | escape }}{% else %}Docs | Astral{% endif %}</title>
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
@@ -34,7 +34,7 @@
       $('.ui.dropdown').dropdown();
 
       // fix menu when passed
-     $('.secondary.pointing.menu')
+     $('.ui.borderless.inverted.menu')
        .visibility({
          once: false,
          onBottomPassed: function() {
@@ -44,19 +44,6 @@
            $('.fixed.menu').transition('fade out');
          }
        });
-
-      // fix main menu to page on passing
-      $('.main.menu').visibility({
-        once: false,
-        onBottomPassed: function() {
-          $('.fixed.menu').transition('fade in');
-        },
-        onBottomPassedReverse: function() {
-          $('.fixed.menu').transition('fade out');
-        }
-      });
-
-
 
       // lazy load images
       $('.image').visibility({
@@ -71,7 +58,7 @@
       });
 
       // create sidebar and attach to menu open
-      $('.ui.sidebar')
+      $('.ui.inverted.sidebar')
         .sidebar('attach events', '.toc.item');
       });
 

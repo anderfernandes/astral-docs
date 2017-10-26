@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<!-- Sidebar Menu -->
+{% include sidebar-menu.html %}
+
+<!-- Following Menu -->
+{% include following-menu.html %}
+
+<div class="pusher">
+  {% include menu-pages.html %}
+  <div class="ui text container" style="padding-top:50px; padding-bottom:50px">
+    <h2 class="ui dividing header">
+      <i class="pencil icon"></i>
+      <div class="content">
+        Blog
+        <div class="sub header">
+          Find out what we've been up to!
+        </div>
+      </div>
+    </h2>
+    <div class="ui unstackable divided items">
+    {% for post in site.posts %}
+      <div class="item">
+        <div class="ui small image">
+          <img src="{{ post.cover }}">
+        </div>
+        <div class="middle aligned content">
+          <div class="ui header">
+            <div class="content">
+              {{ post.title }}
+              <div class="sub header"><i class="user circle outline icon"></i>@anderfernandes | {{ post.date }}</div>
+            </div>
+          </div>
+          <div class="meta">
+            {% for category in post.categories %}
+              {% if category != 'blog'  %}
+              <div class="ui label"><i class="tag icon"></i> {{ category }}</div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="description">
+            <p>{{ post.excerpt }}</p>
+          </div>
+          <div class="extra">
+            <a href="{{ post.url }}" class="ui right floated button">
+              Read More <i class="right chevron icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
