@@ -4,7 +4,7 @@ title: Docs | 1.0-alpha1 | Admin
 permalink: /docs/1.0-alpha1/admin/
 ---
 
-<h2 class="ui dividing header">
+<h1 class="ui dividing header">
   <i class="sun icon"></i>
   <div class="content">
     Admin
@@ -12,19 +12,25 @@ permalink: /docs/1.0-alpha1/admin/
       Manage all aspects of your non profit
     </div>
   </div>
-</h2>
+</h1>
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
-  We recommend using modern browsers such as the latest versions of Chrome, Firefox, Safari or Edge. Internet Explorer is not guaranteed to work.
+  <div class="content">
+    <div class="header">Use modern browsers</div>
+    We recommend using modern browsers such as the latest versions of Chrome, Firefox, Safari or Edge. Internet Explorer is not guaranteed to work.
+  </div>
 </div>
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
-  Make sure you have JavaScript enabled in your browser or some features of Astral may not work properly.
+  <div class="content">
+    <div class="header">JavaScript should be enabled</div>
+    Make sure you have JavaScript enabled in your browser or some features of Astral may not work properly.
+  </div>
 </div>
 
-###  <i class="hashtag icon"></i> Accessing Admin
+##  <i class="hashtag icon"></i> Accessing Admin
 
 After Astral has been setup in your organization, you may login using the URL provided to you by the person who set it up. As soon as you access the URL in your browser, you will see the login screen. After you enter your credendials, you will be taken to the Admin dashboard, regardless of your account type.
 
@@ -36,24 +42,27 @@ If you don't have an account, you should create one by clicking in Register. Fil
 
 After you create and account, use your credentials to log in.
 
-###  <i class="hashtag icon"></i> Dashboard
+##  <i class="hashtag icon"></i> Dashboard
 
 The Dashboard is were you will have an overview of your organization. There is plenty of information there and it should be pretty self explanatory.
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
-  As of the moment we are writing this documentation, the Dashboard is not showing information on sales, earning, attendance and events correctly. However, all the other information is accurate.
+  <div class="content">
+    <div class="header">Dashboard is a work in progress</div>
+    As of the moment we are writing this documentation, the Dashboard is not showing information on sales, earning, attendance and events correctly. However, all the other information is accurate.
+  </div>
 </div>
 
 <img src="/assets/images/dashboard.png" class="ui image" />
 
-###  <i class="hashtag icon"></i> Top Menu
+##  <i class="hashtag icon"></i> Top Menu
 
 The Top Menu is a global menu at the top of very screen in Admin. Use it to see where you are, as the menu shows the portion of Admin you are currently in. It also has a button to access [Cashier](../cashier) at any moment, which will open it in a new browser tab.
 
 If you click in your name, you will be given access to a screen that will allow you to change your account information such as name and password.
 
-###  <i class="hashtag icon"></i> My Account
+##  <i class="hashtag icon"></i> My Account
 
 This is where you go to change your account information if you don't type anything in the password fields, your password won't change. Click save if changes have been made or click back to return to Dashboard.
 
@@ -61,9 +70,116 @@ This is where you go to change your account information if you don't type anythi
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
-  Do not share your account information with anyone. Your account is like and ID card and everything you do in Astral is recorded under the logged user credentials. If you are going to be away from the screen, let's say, to go to the restroom, we recommend you logging out. Make sure you save any new data you are entering into the system.
+  <div class="content">
+    <div class="header">Protect your credentials</div>
+    Do not share your account information with anyone. Your account is like and ID card and everything you do in Astral is recorded under the logged user credentials. If you are going to be away from the screen, let's say, to go to the restroom, we recommend you logging out. Make sure you save any new data you are entering into the system.
+  </div>
 </div>
 
-###  <i class="hashtag icon"></i> Sidebar
+##  <i class="hashtag icon"></i> Sidebar
 
 Clicking in the <i class="sidebar icon"></i> button to access the Sidebar. This button will be called the Sidebar Button from now on and the menu that comes when you click on it will be called the Sidebar.
+
+Each sidebar option is explained below.
+
+##  <i class="hashtag icon"></i> Calendar
+
+Displays all your **sales** (and sales only) in a calendar format. If you have just an event with no sales under it, the event itself will not be shown here. You can go to Events to see them.
+
+Calendar automatically fetches new sales and updates, which means that if somebody else adds a sale elsewhere, this sale will appear or be updated almost real time on users that have Calendar open. There may be a delay of 5 seconds max, plus network delay.
+
+At the top of Calendar you will have buttons that will assist you in creating a new sale. Depending on what you have on the database, you may be able to just create and event and then create a sale and you will have a new item on Calendar.
+
+If there are multiple shows under one timeslot, the events are going to be split. You may click in one event to access its data and edit it from there if you need to. For more information on how to Edit Events, please access the Events portion of Admin's docs.
+
+You may also change Calendar's view using the second line of buttons (the grey ones). As of release 1.0-alpha1, the views available are Single Day View, Week View (the default view) and Month View.
+
+You may use Single Day View to see all the Sales for a particular day.
+
+Week View displays all the events in a particular week.
+
+Month View displays all the events in a particular month.
+
+You may click on Today to see what events you have today.
+
+You can check different timeframes by clicking in the arrows right below the Create Event button, at the top left corner.
+
+##  <i class="hashtag icon"></i> Shows
+
+Manage all shows in your non-profit. If you are running, for example, a Planetarium, you have a few shows/movies/documentaries in your catalog and here is where you would add them.
+
+The shows are displayed in groups of 10, in the order in which they were added, descending. That means, shows recently added come first.
+
+You may click in a show at any time to see details on it. Clicking on the three dots by each of the shows will show you a menu where you can click on View or Edit.
+
+### Adding a Show
+
+At the top of the screen, right below the Menu, you will see the Add Show button. That's where you go to add a new show.
+
+In order to add a show, ou will need the following data:
+
+- Show Name (required)
+- Show Type (required)
+- Duration (in minutes, required)
+- Cover (URL)
+- Description (required)
+
+Show Name is a required field. Enter the show name. Most specials characters are allowed.
+
+Show Type is a required field. Shows can have different types. For example, it may be a full dome Planetarium show, or a Laser Light show. Those are custom types that can be added in Settings <i class="right chevron icon"></i> Show Types. Read **Adding Show Types** for more information.
+
+Duration is a required field. Put the show duration in minutes. If the show is more than an hour long, put the minutes anyways. We recommend rounding show durations up to the nearest integer.
+
+Cover is not a required field and it takes a URL, which means, a link to an image file somewhere on the web or your intranet. The link must end with _png_ or _jpg_. If no cover is entered, a placeholder image will be the cover until you set one.
+
+Description is a required field. Use this field to describe the show. Astral allows you to format your description using **HTML** and **Markdown** markup languages. You can have, for example, bold text, paragraphs, bulleted lists, ordered lists, etc.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Filtering and searching shows are still a work in progress</div>
+    As of version 1.0-alpha1, the search and filtering options do not work. They are planning to be implemented in a future release.
+  </div>
+</div>
+
+##  <i class="hashtag icon"></i> Events
+
+This is where you will manage your events. You can create, view, edit or delete events, depending on your access control rules.
+
+Events are listed in a List View. You may change the timeframe by clicking in the buttons in the top right, which are very similar to what you saw in Calendar, except that in here they will always be a list.
+
+The arrow buttons and Today button work the same way they work in Calendar.
+
+### Creating an Event
+
+You can create new events from two screens: Calendar and Events. Both views have a Create Event button, which will take you to the same screen.
+
+Before you create an Event, make sure you have added the show for that event beforehand. Please read **Adding a Show** for more information.
+
+Also, you need to have Event Types. Please read **Adding Event Types** for more information.
+
+The Seats field read automatically from Settings, but the value you set here overrides it.
+
+The default start and end date and times for events by default will be one hour apart when you set and event's start time. You may have a shorter or longer end date and time. The length of your event has nothing to do with your show event's length.
+
+In Memo, put important notes about the Event. As of release 1.0-alpha1, memos are on a per Event basis rather than by User basis, which means that you can only add only one Memo per Event. You may put your name and/or initials and date after each line people know who and when they were written.
+
+### Viewing an Event
+
+Clicking in any Event in the list will take you to that Event's information page. In that page, you can see a lot of information on events, such as who created them and when, what show is the event having, the last time the event was updated and Memo.
+
+Right above that information there are a couple of buttons with actions.
+
+The Back button takes you back to Events.
+
+The Edit This Event button takes you to a page very similar to **Create an Event**, except that this time it will have all the data you entered when you created the Event. Please read **Editing an Event** for more information.
+
+The Create Another Event button takes you to **Create an Event**.
+
+Depending on your access control rules, you may see the Delete Event button. Make sure this isn't a past Event as we do not recommend Delete Events that have sales attached to them.
+
+### Editing an Event
+
+The Edit Event page allows you to change anything on a particular Event. Make sure that you really want to do this, as there may be sales attached to this Event.
+
+As far as the information available, it is very similar to the one in **Create an Event**. Please read it if you need to know more.
