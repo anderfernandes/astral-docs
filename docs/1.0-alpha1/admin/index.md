@@ -183,3 +183,39 @@ Depending on your access control rules, you may see the Delete Event button. Mak
 The Edit Event page allows you to change anything on a particular Event. Make sure that you really want to do this, as there may be sales attached to this Event.
 
 As far as the information available, it is very similar to the one in **Create an Event**. Please read it if you need to know more.
+
+As of version 1.0-alpha1, the search and filtering options do not work. They are planning to be implemented in a future release.
+
+##  <i class="hashtag icon"></i> Members
+
+The **Members** area of Admin will assist you in adding your non-profit's members to the system so you can track and offer the benefits of a Membership.
+
+Before using this feature, head to Settings and go to the Membership tab. Make sure you have all membership levels set up with their respective benefits and duration.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Transfering members from an old system</div>
+    If you have members in a different ticketing system and want to transfer them to Astral, we suggest you to create a new membership level that costs $ 0 and then add them following the steps below, not forgetting to set when their membership started.
+  </div>
+</div>
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Adding a new member also creates a Sale!</div>
+    Before adding a member, make sure the new member has a user account. If the person doesn't, you may create one then go back to Admin's Member or create it in Cashier.
+  </div>
+</div>
+
+### Adding a Member
+
+Click in the Menu icon and click in Members. Click on the Add Member icon and fill in all their information. Select the membership package and take their payment.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Adding a new member also creates a Sale!</div>
+    Completing a membership creates a Sale for the person you are selling the membership for.
+  </div>
+</div>

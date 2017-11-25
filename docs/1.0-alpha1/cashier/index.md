@@ -183,3 +183,21 @@ This is where you go to change your account information if you don't type anythi
     Do not share your account information with anyone. Your account is like and ID card and everything you do in Astral is recorded under the logged user credentials. If you are going to be away from the screen, let's say, to go to the restroom, we recommend you logging out. Make sure you save any new data you are entering into the system.
   </div>
 </div>
+
+##  <i class="hashtag icon"></i> Members
+
+The **Members** area of Cashier will assist you in adding your non-profit's members to the system so you can track and offer the benefits of a Membership.
+
+Before using this feature, make sure you organization has all membership levels set up with their respective benefits and duration.
+
+### Adding a Member
+
+Click in the Menu icon and click in Members. Click on the Add Member icon and fill in all their information. Select the membership package and take their payment.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Adding a new member also creates a Sale!</div>
+    Completing a membership creates a Sale for the person you are selling the membership for.
+  </div>
+</div>

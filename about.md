@@ -8,6 +8,6 @@ icon: info circle
 
 ## About Astral
 
-Astral is really hard to define. You could say it is a custom relationship manager for non profit organizations such as Planetariums, Museums and Science Centers. As the creator, I have not defined if that's what it is or will be.
+Astral is a Custom Relationship Manager for non profit organizations such as Planetariums, Museums and Science Centers. You can sell tickets, memberships, events and manage them.
 
-Astral is a web application that allows you to manage your shows, events and sales.
+Astral is still highly experimental, use it at your own risk. 
