@@ -52,6 +52,8 @@ Cashier will always be open on a new tab.
 
 ## <i class="hashtag icon"></i> Cashier
 
+<img src="/assets/images/cashier.png" class="ui image" />
+
 Cashier is the main screen in Cashier. What you will see there depends on wether nor not you have events set up for today. If your account allows, you need to add events. Otherwise, contact a supervisor or someone with Admin access and tell them to add the Event(s) in Admin.
 
 Events will be ordered according to their start time. Events starting in the morning will be shown before events starting in the afternoon or evening.
@@ -73,6 +75,12 @@ Each Show cover and data close to it represent data for that event.
     Event data only refreshes upon page refresh.
   </div>
 </div>
+
+### Sidebar
+
+<img src="/assets/images/cashier-sidebar.png" class="ui image" />
+
+The sidebar gives you access to everything you need within Cashier. It is just like the Start Menu on Microsoft Windows. Clicking on the Menu button on the top left corner of the screen will make the Sidebar appear from any screen, except [Reports](#reports) and [My Account](#my_account).
 
 ### Selling Tickets
 
@@ -110,13 +118,27 @@ Cashier will grey out the Tendered field and the Charge button if you have no ti
   <i class="info circle icon"></i>
   <div class="content">
     <div class="header">About the Reference field</div>
-    If your sale is not cash, Astral will not let you finish the sale if you don't enter a reference. This is usually the last 4 digits of the customer's card or the check/money order number.
+    If your sale is not paid with cash, Astral will not let you finish the sale if you don't enter a reference. This is usually the last 4 digits of the customer's card or the check/money order number.
   </div>
 </div>
 
 If you did everything correctly, you will see a message of success for the sale. Otherwise, you may have to start over.
 
+## <i class="hashtag icon"></i> All Sales
+
+In All Sales, you can see all sales that are pending. For example, if a School Group is coming for a visit, their Sale should be listed in this screen.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">All Sales only shows Sales marked as "open"</div>
+    Completed sales are only displayed in Admin / Sales.
+  </div>
+</div>
+
 ## <i class="hashtag icon"></i> Finding a Sale
+
+<img src="/assets/images/cashier-find-sale.png" class="ui image" />
 
 You can query a search by entering at least one piece of information about it. Sending a blank form will not display any results. Find Sale is located in the Sidebar Menu.
 
@@ -170,9 +192,11 @@ This reports shows a table in which every line is a payment. The payments displa
 
 ## <i class="hashtag icon"></i> Logging Out
 
-Click in the Sidebar button at the top left of the screen and click in the Logout button.
+Click on your name on the top right corner of the screen and click in "Logout".
 
 ##  <i class="hashtag icon"></i> My Account
+
+<img src="/assets/images/my-account.png"  class="ui image" />
 
 This is where you go to change your account information if you don't type anything in the password fields, your password won't change. Click save if changes have been made or click back to return to Dashboard.
 
@@ -184,20 +208,76 @@ This is where you go to change your account information if you don't type anythi
   </div>
 </div>
 
+##  <i class="hashtag icon" id="events"></i> Sales
+
+<img src="/assets/images/cashier-sales.png" class="ui image" />
+
+This is most likely the screen your organization will be using the most. This is where you will manage Sales.
+
+### Creating a Sale
+
+<img src="/assets/images/new-sale.png" class="ui image" />
+
+To create a new Sale, click in the New Sale button and fill out the form. You may add a payment if one is being made at the momemnt the sale is being created, or you can add payments later. Astral does support multiple payments in this screen, which means that your are able to take a partial payment such as a deposit or a down payment. Don't forget to mark the Sale as completed if a payment has been made in full.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Don't forget to mark a Sale as "completed" if it has been paid in full</div>
+    Very important, don't forget!
+  </div>
+</div>
+
+### Editing a Sale
+
+To edit a Sale, click in the Edit button that corresponds to the Sale you want to make changes to. Once you are on the Edit screen, you can change anything, except payments that have been made.
+
+The Edit Sale screen is very similar to the Create Sale one.
+
+### Adding Payments to a Sale
+
+Find the Sale that is going to be paid for, click the Edit button that corresponds to it and fill out the Payment part of the form. This screen does support deposits, down payments and multiple payments. Enter the amount, the method and a reference.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Sale Payment Reference</div>
+    This field should receive information such as the last 4 of a Credit Card, Check Number or Money Order number. This field is not required for Cash sales, although you may use it.
+  </div>
+</div>
+
 ##  <i class="hashtag icon"></i> Members
+
+<img src="/assets/images/cashier-members.png" class="ui image" />
 
 The **Members** area of Cashier will assist you in adding your non-profit's members to the system so you can track and offer the benefits of a Membership.
 
-Before using this feature, make sure you organization has all membership levels set up with their respective benefits and duration.
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Make sure membership levels are set up</div>
+    Before using this feature, make sure you organization has all membership levels set up with their respective benefits and duration.
+  </div>
+</div>
 
 ### Adding a Member
 
-Click in the Menu icon and click in Members. Click on the Add Member icon and fill in all their information. Select the membership package and take their payment.
+<img src="/assets/images/cashier-add-member.png" class="ui image" />
+
+Click on the Add Member icon and fill in all their information. Select the membership package and take their payment. This will create an account for this particular user and make this user a Member, in opposition to what happens in Admin, where you have to do each action separetely.
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
   <div class="content">
     <div class="header">Adding a new member also creates a Sale!</div>
     Completing a membership creates a Sale for the person you are selling the membership for.
+  </div>
+</div>
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">If the member is already in the database</div>
+    Ask someone with Admin access to make this user a member.
   </div>
 </div>

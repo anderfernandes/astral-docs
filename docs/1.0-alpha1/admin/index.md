@@ -30,7 +30,7 @@ permalink: /docs/1.0-alpha1/admin/
   </div>
 </div>
 
-##  <i class="hashtag icon"></i> Accessing Admin
+##  <i class="hashtag icon" id="accessing_admin"></i> Accessing Admin
 
 After Astral has been setup in your organization, you may login using the URL provided to you by the person who set it up. As soon as you access the URL in your browser, you will see the login screen. After you enter your credendials, you will be taken to the Admin dashboard, regardless of your account type.
 
@@ -42,29 +42,21 @@ If you don't have an account, you should create one by clicking in Register. Fil
 
 After you create and account, use your credentials to log in.
 
-##  <i class="hashtag icon"></i> Dashboard
+##  <i class="hashtag icon" id="dashboard"></i> Dashboard
 
 The Dashboard is were you will have an overview of your organization. There is plenty of information there and it should be pretty self explanatory.
 
-<div class="ui icon message">
-  <i class="info circle icon"></i>
-  <div class="content">
-    <div class="header">Dashboard is a work in progress</div>
-    As of the moment we are writing this documentation, the Dashboard is not showing information on sales, earning, attendance and events correctly. However, all the other information is accurate.
-  </div>
-</div>
-
 <img src="/assets/images/dashboard.png" class="ui image" />
 
-##  <i class="hashtag icon"></i> Top Menu
+##  <i class="hashtag icon" id="top_menu"></i> Top Menu
 
 The Top Menu is a global menu at the top of very screen in Admin. Use it to see where you are, as the menu shows the portion of Admin you are currently in. It also has a button to access [Cashier](../cashier) at any moment, which will open it in a new browser tab.
 
 If you click in your name, you will be given access to a screen that will allow you to change your account information such as name and password.
 
-##  <i class="hashtag icon"></i> My Account
+##  <i class="hashtag icon" id="my_account"></i> My Account
 
-This is where you go to change your account information if you don't type anything in the password fields, your password won't change. Click save if changes have been made or click back to return to Dashboard.
+This is where you go to change your account information. If you don't type anything in the password fields, your password won't change. Click save if changes have been made or click back to return.
 
 <img src="/assets/images/my-account.png" class="ui image" />
 
@@ -76,15 +68,15 @@ This is where you go to change your account information if you don't type anythi
   </div>
 </div>
 
-##  <i class="hashtag icon"></i> Sidebar
+##  <i class="hashtag icon" id="sidebar"></i> Sidebar
 
 Clicking in the <i class="sidebar icon"></i> button to access the Sidebar. This button will be called the Sidebar Button from now on and the menu that comes when you click on it will be called the Sidebar.
 
 Each sidebar option is explained below.
 
-##  <i class="hashtag icon"></i> Calendar
+##  <i class="hashtag icon" id="calendar"></i> Calendar
 
-Displays all your **sales** (and sales only) in a calendar format. If you have just an event with no sales under it, the event itself will not be shown here. You can go to Events to see them.
+Displays all your **sales** (and sales only) in a calendar format. If you have just an event with no sales under it, the event itself will not be shown here. You can go to [Events](#events) to see them.
 
 Calendar automatically fetches new sales and updates, which means that if somebody else adds a sale elsewhere, this sale will appear or be updated almost real time on users that have Calendar open. There may be a delay of 5 seconds max, plus network delay.
 
@@ -104,7 +96,7 @@ You may click on Today to see what events you have today.
 
 You can check different timeframes by clicking in the arrows right below the Create Event button, at the top left corner.
 
-##  <i class="hashtag icon"></i> Shows
+##  <i class="hashtag icon" id="shows"></i> Shows
 
 Manage all shows in your non-profit. If you are running, for example, a Planetarium, you have a few shows/movies/documentaries in your catalog and here is where you would add them.
 
@@ -142,7 +134,7 @@ Description is a required field. Use this field to describe the show. Astral all
   </div>
 </div>
 
-##  <i class="hashtag icon"></i> Events
+##  <i class="hashtag icon" id="events"></i> Events
 
 This is where you will manage your events. You can create, view, edit or delete events, depending on your access control rules.
 
@@ -186,7 +178,47 @@ As far as the information available, it is very similar to the one in **Create a
 
 As of version 1.0-alpha1, the search and filtering options do not work. They are planning to be implemented in a future release.
 
+##  <i class="hashtag icon" id="events"></i> Sales
+
+<img src="/assets/images/sales.png" class="ui image" />
+
+This is most likely the screen your organization will be using the most. This is where you will manage Sales.
+
+### Creating a Sale
+
+<img src="/assets/images/new-sale.png" class="ui image" />
+
+To create a new Sale, click in the New Sale button and fill out the form. You may add a payment if one is being made at the momemnt the sale is being created, or you can add payments later. Astral does support multiple payments in this screen, which means that your are able to take a partial payment such as a deposit or a down payment. Don't forget to mark the Sale as completed if a payment has been made in full.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Don't forget to mark a Sale as "completed" if it has been paid in full</div>
+    Very important, don't forget!
+  </div>
+</div>
+
+### Adding Payments to a Sale
+
+Find the Sale that is going to be paid for, click the Edit button that corresponds to it and fill out the Payment part of the form. This screen does support deposits, down payments and multiple payments. Enter the amount, the method and a reference.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Sale Payment Reference</div>
+    This field should receive information such as the last 4 of a Credit Card, Check Number or Money Order number. This field is not required for Cash sales, although you may use it.
+  </div>
+</div>
+
+### Editing a Sale
+
+To edit a Sale, click in the Edit button that corresponds to the Sale you want to make changes to. Once you are on the Edit screen, you can change anything, except payments that have been made.
+
+The Edit Sale screen is very similar to the Create Sale one.
+
 ##  <i class="hashtag icon"></i> Members
+
+<img src="/assets/images/membership.png" class="ui image" />
 
 The **Members** area of Admin will assist you in adding your non-profit's members to the system so you can track and offer the benefits of a Membership.
 
@@ -203,7 +235,7 @@ Before using this feature, head to Settings and go to the Membership tab. Make s
 <div class="ui icon message">
   <i class="info circle icon"></i>
   <div class="content">
-    <div class="header">Adding a new member also creates a Sale!</div>
+    <div class="header">Make sure the member has a unser account</div>
     Before adding a member, make sure the new member has a user account. If the person doesn't, you may create one then go back to Admin's Member or create it in Cashier.
   </div>
 </div>
@@ -212,6 +244,16 @@ Before using this feature, head to Settings and go to the Membership tab. Make s
 
 Click in the Menu icon and click in Members. Click on the Add Member icon and fill in all their information. Select the membership package and take their payment.
 
+<img src="/assets/images/add-member.png" class="ui image" />
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Membership elegibility</div>
+    The dropdown on the screen shown in the screenshot above will only have users eligible for a membership. First of all, they must be added in the database through the [Users](#users) menu. If they already are in the database, all you have to do is make a person a member by selecting their name from the dropdown. Current user will not be shown in this dropdown, event if their membership have expired.
+  </div>
+</div>
+
 <div class="ui icon message">
   <i class="info circle icon"></i>
   <div class="content">
@@ -219,3 +261,25 @@ Click in the Menu icon and click in Members. Click on the Add Member icon and fi
     Completing a membership creates a Sale for the person you are selling the membership for.
   </div>
 </div>
+
+### Viewing a Member's Information
+
+To see details on a particular member, click on the blue view button.
+
+<img src="/assets/images/member-details.png" class="ui image" />
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Unable to do add dependents / Unable to renew</div>
+    Adding dependents or renewing memberships are still a work in progress.
+  </div>
+</div>
+
+### Viewing/Priting Membership Receipt
+
+After adding someone as a member, you can view and print the membership receipt by clicking in the View Membership Receipt button. The receipt will be open in a new tab. The receipt will show all information relative to the membership such as cost, expiration date, etc. You can click in the blue button with a printer icon to print it or you can close return by clicking in the button with an "X" or closing the tab.
+
+### Viewing/Printing Membership Card
+
+In the Member Information screen you can click in the yellow "View Card" button to see a member's membership card. This may be your organization's official membership card or just a temporary one.
