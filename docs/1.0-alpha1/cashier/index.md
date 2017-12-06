@@ -281,3 +281,35 @@ Click on the Add Member icon and fill in all their information. Select the membe
     Ask someone with Admin access to make this user a member.
   </div>
 </div>
+
+### Viewing a Member
+
+When you click on the blue "view" button, you will be able to access detailed information on that member.
+
+<img src="/assets/images/cashier-view-member.png" class="ui image" />
+
+From there, you may Add a Dependent, Renew Membership, View Membership Receipt and View Membership Card
+
+### Add a Dependent
+
+In the view member screen, click in "Add a Dependent". A pop up will take the screen asking you who to add as a dependent. Select a person from the dropdown list or type the person's name and click in "Add Dependent".
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Dependents must already be in the database!</div>
+    If the dependent is not a is Astral's database, they must be added in Admin / Users. If you can't access Admin, ask somebody who can to do it for you.
+  </div>
+</div>
+
+### Renewing Memberships
+
+On the member view screen, click in "Renew Membership". Select the type of membership accordingly and fill out the rest of the form.
+
+### Viewing/Priting Membership Receipt
+
+After adding someone as a member, you can view and print the membership receipt by clicking in the View Membership Receipt button. The receipt will be open in a new tab. The receipt will show all information relative to the membership such as cost, expiration date, etc. You can click in the blue button with a printer icon to print it or you can close return by clicking in the button with an "X" or closing the tab.
+
+### Viewing/Printing Membership Card
+
+In the Member Information screen you can click in the yellow "View Card" button to see a member's membership card. This may be your organization's official membership card or just a temporary one.
