@@ -2,7 +2,7 @@
 layout: page
 title:  "First alpha release is here!"
 permalink: /:categories/:title.html
-date:   2017-05-23 21:09:00 -0500
+date:   2017-10-25 21:09:00 -0500
 categories: releases alpha1
 cover: /assets/images/login.png
 excerpt: After many late nights coding, frustrations and problems, we have finally reached our first alpha milestone!
@@ -13,7 +13,7 @@ excerpt: After many late nights coding, frustrations and problems, we have final
   <div class="content">
     First alpha release is here!
     <div class="sub header">
-      <i class="user circle outline icon"></i>@anderfernandes | 2017-05-23 21:09:00
+      <i class="user circle outline icon"></i>@anderfernandes | 2017-10-25 21:09:00
     </div>
     <div class="sub header">
       <div class="ui label"><i class="tag icon"></i>releases</div>
