@@ -24,7 +24,7 @@ excerpt: Alpha 1 has received several improvements and in this post we will go o
 
 <img src="/assets/images/alpha-1-sales-update.png" class="ui image" />
 
-The past few weeks have been really exciting to me as I keep on building this system. I am very thankful for what I have learned and the support I have been getting from my coworkers and loved ones. Let's go over some of the improvements we have added as of today:
+The past few months have been really exciting to me as I keep on building this system. I am very thankful for what I have learned and the support I have been getting from my coworkers and loved ones. Let's go over some of the improvements we have added as of today:
 
 1. (Admin) Dashboard shows more detailed information on the "Feed" section.
 2. (Admin) The user interface elements in Calendar and Events have been improved. You can now, for example, change the calendar view:
@@ -37,6 +37,6 @@ The past few weeks have been really exciting to me as I keep on building this sy
 7. Upcoming Shows, for your visitors to know what shows are played that day in in the next 7 days and is automatically updated. To access it, go to **http://your-astral-url/upcoming**.
 <img src="/assets/images/alpha-1-upcoming.png" class="ui image" />
 
-Items 6 and 7 are perfect for your a nice screen, that's what I had in mind when I made them. That's how we are using them at the Mayborn Science Theater.
+Items 6 and 7 are perfect for a nice and large screen, that's what I had in mind when I made them. That's how we are using them at the Mayborn Science Theater.
 
 I already have a lot more in mind for Astral so keep checking back for more updates. Happy new year!
