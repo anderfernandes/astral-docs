@@ -3,7 +3,7 @@ layout: page
 title: Docs | 1.0-alpha
 label: Docs
 icon: book
-permalink: /docs/1.0-alpha1/
+permalink: /docs/1.0.0-alpha1/
 ---
 
 <h2 class="ui dividing header">

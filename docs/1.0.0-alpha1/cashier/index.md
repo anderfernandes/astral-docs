@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Docs | 1.0-alpha1 | Cashier
-permalink: /docs/1.0-alpha1/cashier/
+permalink: /docs/1.0.0-alpha1/cashier/
 ---
 
 <h1 class="ui dividing header">
