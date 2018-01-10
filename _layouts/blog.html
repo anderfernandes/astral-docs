@@ -30,7 +30,7 @@ layout: default
           <div class="ui header">
             <div class="content">
               {{ post.title }}
-              <div class="sub header"><i class="user circle outline icon"></i>@anderfernandes | {{ post.date }}</div>
+              <div class="sub header"><i class="user circle outline icon"></i>@anderfernandes | {{ post.date | date: "%A, %B %e, %Y at %r" }}</div>
             </div>
           </div>
           <div class="meta">

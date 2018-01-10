@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<!-- Sidebar Menu -->
+{% include sidebar-menu.html %}
+
+<!-- Following Menu -->
+{% include following-menu.html %}
+
+<div class="pusher">
+  {% include menu-pages.html %}
+  <div class="ui text container" style="padding-top:50px; padding-bottom:50px">
+    <h2 class="ui dividing header">
+      <i class="pencil icon"></i>
+      <div class="content">
+        {{ page.title }}
+        <div class="sub header">
+          <i class="user circle outline icon"></i>@anderfernandes | {{ page.date | date: "%A, %B %e, %Y at %r" }}
+        </div>
+        <div class="sub header">
+          {% for category in page.categories %}
+            {% if category != 'blog'  %}
+            <div class="ui label"><i class="tag icon"></i> {{ category }}</div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </h2>
+    {{ content }}
+  </div>
+</div>

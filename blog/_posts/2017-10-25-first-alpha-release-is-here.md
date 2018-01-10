@@ -8,20 +8,6 @@ cover: /assets/images/login.png
 excerpt: After many late nights coding, frustrations and problems, we have finally reached our first alpha milestone!
 ---
 
-<h2 class="ui dividing header">
-  <i class="pencil icon"></i>
-  <div class="content">
-    First alpha release is here!
-    <div class="sub header">
-      <i class="user circle outline icon"></i>@anderfernandes | 2017-10-25 21:09:00
-    </div>
-    <div class="sub header">
-      <div class="ui label"><i class="tag icon"></i>releases</div>
-      <div class="ui label"><i class="tag icon"></i>alpha1</div>
-    </div>
-  </div>
-</h2>
-
 <img src="/assets/images/login.png" class="ui image" />
 
 Hi! I am Anderson Fernandes, the creator of Astral.

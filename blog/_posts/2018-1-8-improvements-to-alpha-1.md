@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Improvements to Alpha 1"
 permalink: /:categories/:title.html
 date:   2018-01-08 17:09:00 -0500
@@ -7,20 +7,6 @@ categories: improvements alpha1
 cover: /assets/images/alpha-1-sales-update.png
 excerpt: Alpha 1 has received several improvements and in this post we will go over them!
 ---
-
-<h2 class="ui dividing header">
-  <i class="pencil icon"></i>
-  <div class="content">
-    Improvements to Alpha 1
-    <div class="sub header">
-      <i class="user circle outline icon"></i>@anderfernandes | 2018-01-08 17:09:00
-    </div>
-    <div class="sub header">
-      <div class="ui label"><i class="tag icon"></i>improvements</div>
-      <div class="ui label"><i class="tag icon"></i>alpha1</div>
-    </div>
-  </div>
-</h2>
 
 The past few months have been really exciting to me as I keep on building this system. I am very thankful for what I have learned and the support I have been getting from my coworkers and loved ones. Let's go over some of the improvements we have added as of today:
 
