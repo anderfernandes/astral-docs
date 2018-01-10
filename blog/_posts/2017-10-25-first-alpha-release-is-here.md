@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "First alpha release is here!"
 permalink: /:categories/:title.html
 date:   2017-10-25 21:09:00 -0500
