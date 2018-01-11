@@ -218,13 +218,13 @@ This is most likely the screen your organization will be using the most. This is
 
 <img src="/assets/images/new-sale.png" class="ui image" />
 
-To create a new Sale, click in the New Sale button and fill out the form. You may add a payment if one is being made at the momemnt the sale is being created, or you can add payments later. Astral does support multiple payments in this screen, which means that your are able to take a partial payment such as a deposit or a down payment. Don't forget to mark the Sale as completed if a payment has been made in full.
+To create a new Sale, click in the New Sale button and fill out the form. You may add a payment if one is being made at the momemnt the sale is being created, or you can add payments later. Astral does support multiple payments in this screen, which means that your are able to take a partial payment such as a deposit or a down payment. Sales are automatically marked as complete is they have been paid in full.
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
   <div class="content">
-    <div class="header">Don't forget to mark a Sale as "completed" if it has been paid in full</div>
-    Very important, don't forget!
+    <div class="header">Sales are automatically marked as complete is they have been paid in full</div>
+    There is no need to mark a sale as completed if they have been paid in full.
   </div>
 </div>
 

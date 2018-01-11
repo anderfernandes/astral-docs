@@ -188,7 +188,7 @@ This is most likely the screen your organization will be using the most. This is
 
 <img src="/assets/images/new-sale.png" class="ui image" />
 
-To create a new Sale, click in the New Sale button and fill out the form. You may add a payment if one is being made at the momemnt the sale is being created, or you can add payments later. Astral does support multiple payments in this screen, which means that your are able to take a partial payment such as a deposit or a down payment. Don't forget to mark the Sale as completed if a payment has been made in full.
+To create a new Sale, click in the New Sale button, select what kind of event you are creating the sale for (remember to have event types set up in settings), and fill out the form. You may add a payment if one is being made at the moment the sale is being created, or you can add payments later. Astral does support multiple payments in this screen, which means that your are able to take a partial payment such as a deposit or a down payment. Don't forget to mark the Sale as completed if a payment has been made in full.
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
@@ -216,7 +216,11 @@ To edit a Sale, click in the Edit button that corresponds to the Sale you want t
 
 The Edit Sale screen is very similar to the Create Sale one.
 
-##  <i class="hashtag icon"></i> Members
+##  <i class="hashtag icon" id="reports"></i> Reports
+
+As of version 1.0.0-alpha1, admin users can view/print cashier reports such as the **Closeout** and **Payment Transaction Detail**. All you have to do is click on the button that corresponds to the repor you are looking for, select the cashier and the date. The report then will open on a new tab.
+
+##  <i class="hashtag icon" id="members"></i> Members
 
 <img src="/assets/images/membership.png" class="ui image" />
 
@@ -235,7 +239,7 @@ Before using this feature, head to Settings and go to the Membership tab. Make s
 <div class="ui icon message">
   <i class="info circle icon"></i>
   <div class="content">
-    <div class="header">Make sure the member has a unser account</div>
+    <div class="header">Make sure the member has a user account</div>
     Before adding a member, make sure the new member has a user account. If the person doesn't, you may create one then go back to Admin's Member or create it in Cashier.
   </div>
 </div>
@@ -268,14 +272,6 @@ To see details on a particular member, click on the blue view button.
 
 <img src="/assets/images/member-details.png" class="ui image" />
 
-<div class="ui icon message">
-  <i class="info circle icon"></i>
-  <div class="content">
-    <div class="header">Unable to do add dependents / Unable to renew</div>
-    Adding dependents or renewing memberships are still a work in progress.
-  </div>
-</div>
-
 ### Viewing/Priting Membership Receipt
 
 After adding someone as a member, you can view and print the membership receipt by clicking in the View Membership Receipt button. The receipt will be open in a new tab. The receipt will show all information relative to the membership such as cost, expiration date, etc. You can click in the blue button with a printer icon to print it or you can close return by clicking in the button with an "X" or closing the tab.
@@ -283,3 +279,63 @@ After adding someone as a member, you can view and print the membership receipt 
 ### Viewing/Printing Membership Card
 
 In the Member Information screen you can click in the yellow "View Card" button to see a member's membership card. This may be your organization's official membership card or just a temporary one.
+
+##  <i class="hashtag icon" id="users"></i> Users
+
+This is where admins will manage user accounts. Admins can change the information of basically any user. The star besides a user name means that they are a staff member.
+
+You may add a new user by clicking on the Add User button. Make sure you set a password.
+
+Find the user you are looking for and click in the blue Edit button. Change whatever you need to change. If the password is not being changed, leave it blank.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">About the password field in Users</div>
+    The password field is there in preparation for the self service interface. Users will be able to put and change reservations on their own and a later release.
+  </div>
+</div>
+
+##  <i class="hashtag icon" id="organizations"></i> Organizations
+
+This is where admins will add new organizations. It works very similarly to the **Users** portion of Astral.
+
+##  <i class="hashtag icon" id="settings"></i> Settings
+
+This is where admins will set global values for the system.
+
+### General
+
+In the General tab, admins will be able to set the name of the non-profit Astral serves and some other information on it, such as logo, cover picture, address and membership receipt text.
+
+### Organizations
+
+This is where you will set Organization types. The way you want to organize them is up to you. At the Mayborn Science Theater, we have an organization type for each independent school district.
+
+### Tickets
+
+The Tickets tab allows you to create Ticket Types for the system. You can allow tickets in more than one event type.
+
+### Payments
+
+System wide Payment types are set up here. Astral does not process payments online. Your Non-profit must have a way to process payments. This is just a way to "tag" the payments under a payment type.
+
+### Events
+
+Event types are set here. Event types are a classification/tag for an event. Is it a matinee? A school group? A weekend show? Normally, event types have different ticket prices.
+
+### Users
+
+This is where you set roles and whether or not a role is a "staff" role.
+
+### Membership
+
+This tab allows you to create membership types, set their prices and the duration of a membership.
+
+##  <i class="hashtag icon" id="cashier"></i> Cashier
+
+This is basically a link to Cashier in a new tab.
+
+##  <i class="hashtag icon" id="help"></i> Help
+
+The Help item takes you to this website where you will find the official documentation for Astral.
