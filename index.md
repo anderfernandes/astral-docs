@@ -12,3 +12,7 @@ icon: home
 <a href="/docs/{{ site.current | escape }}/" class="ui huge inverted basic button">
   <i class="book icon"></i> Docs
 </a>
+
+<style>
+  .header.item { padding-bottom: 0 !important }
+</style>

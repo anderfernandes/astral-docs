@@ -1,16 +1,15 @@
-<a href="{{ "/" | relative_url }}" class="header item">
-  <!--<img class="logo" src="https://semantic-ui.com/examples/assets/images/logo.png" style="margin-right:1.5em">-->
-  <i class="large sun icon"></i>{{ site.title | escape }}
-</a>
+<div href="{{ "/" | relative_url }}" class="header item">
+  <img class="logo" src="/assets/astral-logo-light.png" style="margin-right:1rem;">{{ site.title | escape }}
+</div>
 <a href="/" class="{% if page.url == '/' %}active {% endif %}item"><i class="home icon"></i>Home</a>
-{% assign default_paths = site.pages | map: "path" %}
-{% assign page_paths = site.header_pages | default: default_paths %}
-{% for path in page_paths %}
-  {% assign my_page = site.pages | where: "path", path | first %}
-  {% if my_page.label %}
-  <a class="{% if my_page.url == page.url %}active {% endif %}item" href="{{ my_page.url | relative_url }}">
-    <i class="{{ my_page.icon }} icon"></i>
-    {{ my_page.label | escape }}
-  </a>
-  {% endif %}
-{% endfor %}
+<a href="/about" class="{% if page.url == '/about' %}active {% endif %}item"><i class="info circle icon"></i>About</a>
+<a href="/blog" class="{% if page.url == '/blog' %}active {% endif %}item"><i class="pencil icon"></i>Blog</a>
+<a href="/screenshots" class="{% if page.url == '/screenshots' %}active {% endif %}item"><i class="image icon"></i>Screenshots</a>
+<div class="ui dropdown item">
+    <i class="book icon"></i>Docs
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <a href="/docs/1.0.0-alpha2" class="{% if page.url == '/docs/1.0.0-alpha2/' %}active {% endif %}item">1.0.0-alpha2</a>
+      <a href="/docs/1.0.0-alpha1" class="{% if page.url == '/docs/1.0.0-alpha1/' %}active {% endif %}item">1.0.0-alpha1</a>
+    </div>
+  </div>
