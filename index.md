@@ -2,6 +2,8 @@
 layout: home
 title: Home
 icon: home
+cover: /assets/cover.jpg
+excerpt: Astral is a completely open source solution for non-profit organizations such as planetariums, museums and science centers. It allows these organization to sell tickets, manage staff, visitors, members and organizations, schedule visits and much more.
 ---
 
 <h3 class="ui label">{{ site.current | escape }}</h3>

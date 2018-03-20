@@ -5,18 +5,27 @@
 
   <title>{% if page.title %}{{ page.title | escape }} | Astral | {{ site.current | escape }}{% else %}Docs | Astral{% endif %}</title>
 
+  <!-- Regular Meta -->
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta property='og:image' content="{{ site.url }}{{ page.cover }}"/>
+  <!-- Open Graph Metas -->
+  <meta property='og:image' content="{{ site.url }}{{ page.cover }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | Astral | {{ site.current | escape }}{% else %}Docs | Astral{% endif %}" />
+  <meta property="og:description" content="{{ page.excerpt }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <!-- Twitter Metas -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@anderfernandes1">
+  <meta name="twitter:creator" content="@anderfernandes1">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | Astral | {{ site.current | escape }}{% else %}Docs | Astral{% endif %}">
+  <meta name="twitter:description" content="{{ page.excerpt }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.cover }}">
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
 
   <!-- Semantic Includes -->
-  <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous">
-  </script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
 
