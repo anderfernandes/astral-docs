@@ -6,7 +6,7 @@
   <title>{% if page.title %}{{ page.title | escape }} | Astral | {{ site.current | escape }}{% else %}Docs | Astral{% endif %}</title>
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta property='og:image' content="{{ page.cover }}"/>
+  <meta property='og:image' content="//{{ site.domain }}{{ page.cover }}"/>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
