@@ -2,6 +2,6 @@
 layout: blog
 title: Blog
 label: Blog
-permalink: /blog
+permalink: /blog/
 icon: pencil
 ---
