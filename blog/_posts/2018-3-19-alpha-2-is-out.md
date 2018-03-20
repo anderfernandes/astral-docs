@@ -5,7 +5,7 @@ permalink: /:categories/:title.html
 date:   2018-3-19 20:09:00 -0500
 categories: releases alpha2
 cover: /assets/screenshots/1.0.0-alpha2/Screenshot_20180319_201652.png
-excerpt: After many late nights coding, frustrations and problems, we have finally reached our first alpha milestone!
+excerpt: After several days and nights of work, sweat, blood and tears... Our second alpha release is here!
 ---
 
 <img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_201652.png" class="ui image" />
