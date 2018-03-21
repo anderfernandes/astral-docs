@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Docs | 1.0-alpha1 | Admin
+title: Docs | 1.0-alpha2 | Admin
 permalink: /docs/1.0.0-alpha2/admin
 ---
 
 <h1 class="ui dividing header">
-  <i class="sun icon"></i>
+  <i class="sun outline icon"></i>
   <div class="content">
     Admin
     <div class="sub header">
@@ -30,33 +30,65 @@ permalink: /docs/1.0.0-alpha2/admin
   </div>
 </div>
 
-##  <i class="hashtag icon" id="accessing_admin"></i> Accessing Admin
+<div class="ui dividing header" id="accessing-admin"><i class="hashtag icon"></i>Accessing Admin</div>
 
 After Astral has been setup in your organization, you may login using the URL provided to you by the person who set it up. As soon as you access the URL in your browser, you will see the login screen. After you enter your credendials, you will be taken to the Admin dashboard, regardless of your account type.
 
-<img src="/assets/images/login.png" class="ui image" />
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_195508.png" class="ui image" />
 
 If you don't have an account, you should create one by clicking in Register. Fill out and submit the form and you should be good to go.
 
-<img src="/assets/images/register.png" class="ui image" />
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_201753.png" class="ui image" />
 
 After you create and account, use your credentials to log in.
 
-##  <i class="hashtag icon" id="dashboard"></i> Dashboard
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Access Control</div>
+    By default users who register themselves will not see much. Make sure you change their role if they are going to be working with Admin.
+  </div>
+</div>
+
+<div class="ui dividing header" id="dashboard"><i class="hashtag icon"></i>Dashboard</div>
 
 The Dashboard is were you will have an overview of your organization. There is plenty of information there and it should be pretty self explanatory.
 
-<img src="/assets/images/dashboard.png" class="ui image" />
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_195840.png" class="ui image" />
 
-##  <i class="hashtag icon" id="top_menu"></i> Top Menu
+### Overall Earnings
 
-The Top Menu is a global menu at the top of very screen in Admin. Use it to see where you are, as the menu shows the portion of Admin you are currently in. It also has a button to access [Cashier](../cashier) at any moment, which will open it in a new browser tab.
+This graph shows the amount of money collected in the last seven days, broken down by each day. The data only comes from Sales marked as "completed".
+
+### Calendar
+
+This is where you'll see what groups will come to visit your non-profit and what events will happen today. You can switch between Reservatons and Events just like you can do in Calendar. You can also use the arrows to go back or forward one or more days. Click in the calendar icon between the arrows to go back to today in the calendar.
+
+### Bulletin
+
+This is where you're going to see bulletin posts from the last seven days. You can see the post's author, category, importance, date created and number of replies.
+
+### Attendance
+
+These graphs break down the amount of people who came to visit your non-profit by tickets sold and by demographics (ticket type) in the last seven days.
+
+### Database Overview
+
+Under the Attendance box you can see the amount of shows, users, organizations and members in your Astral database.
+
+### Feed
+
+In the Feed box you can see data on the latest seven sales. Click on the links to see information on the sale, cashier or show.
+
+<div class="ui dividing header" id="top-menu"><i class="hashtag icon"></i>Top Menu</div>
+
+The Top Menu is a global menu at the top of every screen in Admin. Use it to see where you are, as the menu shows the portion of Admin you are currently in. It also has a button to access [Cashier](../cashier) at any moment, which will open it in a new browser tab.
 
 If you click in your name, you will be given access to a screen that will allow you to change your account information such as name and password.
 
-##  <i class="hashtag icon" id="my_account"></i> My Account
+<div class="ui dividing header" id="my-account"><i class="hashtag icon"></i>My Account</div>
 
-This is where you go to change your account information. If you don't type anything in the password fields, your password won't change. Click save if changes have been made or click back to return.
+This is where you go to change your account information. *If you don't type anything in the password fields, your password won't change*. Click save if changes have been made or click back to return.
 
 <img src="/assets/images/my-account.png" class="ui image" />
 
@@ -68,45 +100,31 @@ This is where you go to change your account information. If you don't type anyth
   </div>
 </div>
 
-##  <i class="hashtag icon" id="sidebar"></i> Sidebar
+<div class="ui dividing header" id="sidebar"><i class="hashtag icon"></i>Sidebar</div>
 
 Clicking in the <i class="sidebar icon"></i> button to access the Sidebar. This button will be called the Sidebar Button from now on and the menu that comes when you click on it will be called the Sidebar.
 
+Some sidebar items have subitems that allow faster access to their sub options.
+
 Each sidebar option is explained below.
 
-##  <i class="hashtag icon" id="calendar"></i> Calendar
-
-Displays all your **sales** (and sales only) in a calendar format. If you have just an event with no sales under it, the event itself will not be shown here. You can go to [Events](#events) to see them.
-
-Calendar automatically fetches new sales and updates, which means that if somebody else adds a sale elsewhere, this sale will appear or be updated almost real time on users that have Calendar open. There may be a delay of 5 seconds max, plus network delay.
-
-At the top of Calendar you will have buttons that will assist you in creating a new sale. Depending on what you have on the database, you may be able to just create and event and then create a sale and you will have a new item on Calendar.
-
-If there are multiple shows under one timeslot, the events are going to be split. You may click in one event to access its data and edit it from there if you need to. For more information on how to Edit Events, please access the Events portion of Admin's docs.
-
-You may also change Calendar's view using the second line of buttons (the grey ones). As of release 1.0-alpha1, the views available are Single Day View, Week View (the default view) and Month View.
-
-You may use Single Day View to see all the Sales for a particular day.
-
-Week View displays all the events in a particular week.
-
-Month View displays all the events in a particular month.
-
-You may click on Today to see what events you have today.
-
-You can check different timeframes by clicking in the arrows right below the Create Event button, at the top left corner.
-
-##  <i class="hashtag icon" id="shows"></i> Shows
+<div class="ui dividing header" id="shows"><i class="hashtag icon"></i>Shows</div>
 
 Manage all shows in your non-profit. If you are running, for example, a Planetarium, you have a few shows/movies/documentaries in your catalog and here is where you would add them.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_195956.png" class="ui image" />
 
 The shows are displayed in groups of 10, in the order in which they were added, descending. That means, shows recently added come first.
 
 You may click in a show at any time to see details on it. Clicking on the three dots by each of the shows will show you a menu where you can click on View or Edit.
 
+You may also filter shows by name, duration and type.
+
 ### Adding a Show
 
 At the top of the screen, right below the Menu, you will see the Add Show button. That's where you go to add a new show.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_200028.png" class="ui image" />
 
 In order to add a show, ou will need the following data:
 
@@ -134,19 +152,37 @@ Description is a required field. Use this field to describe the show. Astral all
   </div>
 </div>
 
-##  <i class="hashtag icon" id="events"></i> Events
+<div class="ui dividing header"><i class="hashtag icon"></i>Calendar</div>
 
-This is where you will manage your events. You can create, view, edit or delete events, depending on your access control rules.
+Displays all your **sales** (reservations) and **events** (and sales only) in a calendar format. You can switch between reservations view and events view by clicking on the button on the top right corner of the screen.
 
-Events are listed in a List View. You may change the timeframe by clicking in the buttons in the top right, which are very similar to what you saw in Calendar, except that in here they will always be a list.
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_200127.png" class="ui image" />
 
-The arrow buttons and Today button work the same way they work in Calendar.
+Calendar automatically fetches new sales and updates, which means that if somebody else adds a sale elsewhere, this sale will be automatically updated on other people's calendar if they have it open.
+
+At the top of Calendar you will have buttons that will assist you in creating a new sale and/or event. Depending on what you have on the database, you may be able to just create and event and then create a sale and you will have a new item on Calendar.
+
+If there are multiple shows under one timeslot, the events are going to be split. You may click in one event to access its data and edit it from there if you need to. For more information on how to Edit Events, please access the Events portion of Admin's docs.
+
+You may also change Calendar's view using the second line of buttons (the grey ones). As of release 1.0-alpha2, the views available are Single Day View, Week View (the default view) and Month View.
+
+You may use Single Day View to see all the Sales for a particular day.
+
+Week View displays all the events in a particular week.
+
+Month View displays all the events in a particular month.
+
+You may click on Today to see what events you have today.
+
+You can check different timeframes by clicking in the arrows right below the Create Event button, at the top left corner.
 
 ### Creating an Event
 
-You can create new events from two screens: Calendar and Events. Both views have a Create Event button, which will take you to the same screen.
+You can create new events by clicking the "New Event" button.
 
 Before you create an Event, make sure you have added the show for that event beforehand. Please read **Adding a Show** for more information.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_200155.png" class="ui image" />
 
 Also, you need to have Event Types. Please read **Adding Event Types** for more information.
 

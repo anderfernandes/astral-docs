@@ -121,7 +121,8 @@ background-size: cover;
   }
 
   /* Hide menu items on mobile screen sizes */
-  .borderless.main.huge.inverted.menu .item,
+  .large.inverted.menu .item,
+  .large.inverted.menu .menu,
   .top.fixed.menu .item,
   .top.fixed.menu .menu,
   .secondary.pointing.menu .item,
@@ -130,25 +131,27 @@ background-size: cover;
   }
 
   /* Show menu icon on mobile screen sizes */
-  .borderless.main.huge.inverted.menu .toc.item,
+  .ui.inverted.menu .toc.item,
   .top.fixed.menu .toc.item,
   .secondary.pointing.menu .toc.item, {
     display: block;
   }
 
   /* Show site name on menu at all times */
-  .borderless.main.huge.inverted.menu .header.item,
+  .ui.inverted.menu .header.item,
   .top.fixed.menu .header.item,
   .secondary.pointing.menu .header.item {
     display: block;
   }
 
   /* Show site name on menu at all times */
-  .borderless.main.huge.inverted.menu .right.item,
+  .ui.inverted.menu .right.item,
   .top.fixed.menu .right.item,
   .secondary.pointing.menu .right.item {
     display: block;
   }
+
+  .ui.vertical.menu { display: block; }
 
   .masthead.segment {
     min-height: 100vh;

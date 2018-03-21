@@ -12,7 +12,7 @@ permalink: /docs/1.0.0-alpha2/
 
 As of release 1.0.0-alpha2, Astral continues to have two main interfaces: Admin and Cashier. Their names were made simple so that any user could pick up on their purpose just by looking at them. Astral tries to keep everything as simple as possible.
 
-<a href="admin" class="ui large black button"><i class="sun icon"></i>Admin</a>
+<a href="admin" class="ui large black button"><i class="sun outline icon"></i>Admin</a>
 <a href="cashier" class="ui large black button"><i class="inbox icon"></i>Cashier</a>
 
 ###  <i class="hashtag icon"></i> Change Log

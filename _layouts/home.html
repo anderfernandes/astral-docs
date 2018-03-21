@@ -15,9 +15,10 @@
       <div class="ui inverted vertical masthead center aligned segment">
         <div class="ui container">
           <div class="ui large secondary inverted pointing menu">
-
+            <div href="{{ "/" | relative_url }}" class="header item">
+              <img src="/assets/astral-logo-light.png" style="margin-right:1rem; width:35px">{{ site.title | escape }}
+            </div>
             {% include menu-loop.html %}
-
             <a class="toc right item">
               <i class="sidebar icon"></i>
             </a>
