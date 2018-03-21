@@ -140,17 +140,9 @@ Show Type is a required field. Shows can have different types. For example, it m
 
 Duration is a required field. Put the show duration in minutes. If the show is more than an hour long, put the minutes anyways. We recommend rounding show durations up to the nearest integer.
 
-Cover is not a required field and it takes a URL, which means, a link to an image file somewhere on the web or your intranet. The link must end with _png_ or _jpg_. If no cover is entered, a placeholder image will be the cover until you set one.
+Cover is not a required field and it takes a URL, which means, *a link to an image file somewhere on the web or your intranet. The link must end with _png_ or _jpg_*. If no cover is entered, a placeholder image will be the cover until you set one.
 
 Description is a required field. Use this field to describe the show. Astral allows you to format your description using **HTML** and **Markdown** markup languages. You can have, for example, bold text, paragraphs, bulleted lists, ordered lists, etc.
-
-<div class="ui icon message">
-  <i class="info circle icon"></i>
-  <div class="content">
-    <div class="header">Filtering and searching shows are still a work in progress</div>
-    As of version 1.0-alpha1, the search and filtering options do not work. They are planning to be implemented in a future release.
-  </div>
-</div>
 
 <div class="ui dividing header"><i class="hashtag icon"></i>Calendar</div>
 
@@ -194,17 +186,31 @@ In Memo, put important notes about the Event. As of release 1.0-alpha1, memos ar
 
 ### Viewing an Event
 
-Clicking in any Event in the list will take you to that Event's information page. In that page, you can see a lot of information on events, such as who created them and when, what show is the event having, the last time the event was updated and Memo.
+In Calendar, when you have Events view selected, you may view information on an event by clicking on it (as of 1.0.0-alpha2, events are seen as blue colored boxes in Calendar and Sales/Reservations are grey).
+
+Clicking in any Event in the calendar will take you to that Event's information page. In that page, you can see a lot of information on events, such as who created them and when, what show is the event having, the last time the event was updated and Memo.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_200053.png" class="ui image" />
+
+As of 1.0.0-alpha2, you can also see what sales are attached to that event.
 
 Right above that information there are a couple of buttons with actions.
 
-The Back button takes you back to Events.
+The Back button takes you back to Calendar.
 
 The Edit This Event button takes you to a page very similar to **Create an Event**, except that this time it will have all the data you entered when you created the Event. Please read **Editing an Event** for more information.
 
-The Create Another Event button takes you to **Create an Event**.
+The *Create Another Event* button takes you to **Create an Event**.
 
 Depending on your access control rules, you may see the Delete Event button. Make sure this isn't a past Event as we do not recommend Delete Events that have sales attached to them.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">About deleting events</div>
+    Make sure there are no events attach to a sale before you delete them.
+  </div>
+</div>
 
 ### Editing an Event
 
@@ -212,19 +218,19 @@ The Edit Event page allows you to change anything on a particular Event. Make su
 
 As far as the information available, it is very similar to the one in **Create an Event**. Please read it if you need to know more.
 
-As of version 1.0-alpha1, the search and filtering options do not work. They are planning to be implemented in a future release.
-
-##  <i class="hashtag icon" id="events"></i> Sales
-
-<img src="/assets/images/sales.png" class="ui image" />
+<div class="ui dividing header" id="sales"><i class="hashtag icon"></i>Sales</div>
 
 This is most likely the screen your organization will be using the most. This is where you will manage Sales.
 
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_215918.png" class="ui image" />
+
 ### Creating a Sale
 
-<img src="/assets/images/new-sale.png" class="ui image" />
-
 To create a new Sale, click in the New Sale button, select what kind of event you are creating the sale for (remember to have event types set up in settings), and fill out the form. You may add a payment if one is being made at the moment the sale is being created, or you can add payments later. Astral does support multiple payments in this screen, which means that your are able to take a partial payment such as a deposit or a down payment. Don't forget to mark the Sale as completed if a payment has been made in full.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180321_093914.png" class="ui image" />
+
+Alternatively, you may create a new sale in calendar. The link there will take you to the "New Sale" screen.
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
@@ -236,12 +242,14 @@ To create a new Sale, click in the New Sale button, select what kind of event yo
 
 ### Adding Payments to a Sale
 
-Find the Sale that is going to be paid for, click the Edit button that corresponds to it and fill out the Payment part of the form. This screen does support deposits, down payments and multiple payments. Enter the amount, the method and a reference.
+Find the Sale that is going to be paid for, click the Edit button that corresponds to it. *Note that there are two tabs in the middle of the screen: Sale Information and Payment Information.* Click in the Payment Information tab and fill out the Payment part of the form. Astral does support deposits, down payments and multiple payments. Enter the amount, the method and a reference.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180321_094537.png" class="ui image" />
 
 <div class="ui icon message">
   <i class="info circle icon"></i>
   <div class="content">
-    <div class="header">Sale Payment Reference</div>
+    <div class="header">Payment Reference</div>
     This field should receive information such as the last 4 of a Credit Card, Check Number or Money Order number. This field is not required for Cash sales, although you may use it.
   </div>
 </div>
@@ -252,11 +260,45 @@ To edit a Sale, click in the Edit button that corresponds to the Sale you want t
 
 The Edit Sale screen is very similar to the Create Sale one.
 
-##  <i class="hashtag icon" id="reports"></i> Reports
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">Memos</div>
+    Sales that are being edited require a memo. In the memo field, write why you are making changes. You can't save and edited sale if you don't leave a memo.
+  </div>
+</div>
 
-As of version 1.0.0-alpha1, admin users can view/print cashier reports such as the **Closeout** and **Payment Transaction Detail**. All you have to do is click on the button that corresponds to the repor you are looking for, select the cashier and the date. The report then will open on a new tab.
+### Viewing a Sale
 
-##  <i class="hashtag icon" id="members"></i> Members
+In Sales, when you click in the blue "eye" icon, you will be taken to View Sale. You can also get there by clicking in one of the available Sales inside a View Event.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180321_094429.png" class="ui image" />
+
+This screen is very important. All the information on that sale will be available here. You can see who and when it was created/last modified, customer information (an individual, a member, an organization or both) as well as event information (when and how many tickets), price, payments and memos. Note that individuals, organizations and shows have a text of blue color. These are links so you can quickly access their information.
+
+<div class="ui dividing header" id="reports"><i class="hashtag icon"></i>Reports</div>
+
+As of version 1.0.0-alpha2, admin users can view/print the following reports:
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_200339.png" class="ui image" />
+
+### Cashier Reports
+
+The first Cashier report you will encounter is the Closeout Report. This report lists payment totals split by payment method (cash, card, check) for the selected payment user and the selected date range.
+
+The second Cashier report is the Transaction Detail Report. This report lists information on every single payment taken by a payment user.
+
+### Royalties Reports
+
+The Royalty Report shows a wide range of data on the selected show, including how much money that show made before and after tax, attendance and number of showings, with graphs. This is perfect to show to any company your non-profit has to pay royalties to.
+
+### Membership Reports
+
+The New Members Report shows a list of data on members who signed up for a membership in the selected date and time range.
+
+<div class="ui dividing header" id="members"><i class="hashtag icon"></i>Members</div>
+
+Your organization needs to define the available membership packages. Prices, duration and maximum number of seondaries must be defined before your organization starts selling memberships.
 
 <img src="/assets/images/membership.png" class="ui image" />
 
@@ -308,6 +350,18 @@ To see details on a particular member, click on the blue view button.
 
 <img src="/assets/images/member-details.png" class="ui image" />
 
+### Adding a Secondary
+
+To add a secondary, click on the Add a Secondary button. This will only be clickable if theere are secondaries spots available for that particular membership type.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">A secondary must be added as a user first!</div>
+    The name options under secondary don't come from outer space. They must be added as a user first if they haven't already.
+  </div>
+</div>
+
 ### Viewing/Priting Membership Receipt
 
 After adding someone as a member, you can view and print the membership receipt by clicking in the View Membership Receipt button. The receipt will be open in a new tab. The receipt will show all information relative to the membership such as cost, expiration date, etc. You can click in the blue button with a printer icon to print it or you can close return by clicking in the button with an "X" or closing the tab.
@@ -316,9 +370,11 @@ After adding someone as a member, you can view and print the membership receipt 
 
 In the Member Information screen you can click in the yellow "View Card" button to see a member's membership card. This may be your organization's official membership card or just a temporary one.
 
-##  <i class="hashtag icon" id="users"></i> Users
+<div class="ui dividing header" id="users"><i class="hashtag icon"></i>Users</div>
 
 This is where admins will manage user accounts. Admins can change the information of basically any user. The star besides a user name means that they are a staff member.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_200937.png" class="ui image" />
 
 You may add a new user by clicking on the Add User button. Make sure you set a password.
 
@@ -332,13 +388,67 @@ Find the user you are looking for and click in the blue Edit button. Change what
   </div>
 </div>
 
-##  <i class="hashtag icon" id="organizations"></i> Organizations
+<div class="ui dividing header" id="organizations"><i class="hashtag icon"></i>Organizations</div>
 
 This is where admins will add new organizations. It works very similarly to the **Users** portion of Astral.
 
-##  <i class="hashtag icon" id="settings"></i> Settings
+<div class="ui dividing header" id="organizations">
+  <i class="hashtag icon"></i>
+  <div class="content">
+    Bulletin <span class="ui label"><i class="star icon"></i> New on 1.0.0-alpha2!</span>
+  </div>
+</div>
+
+Bulletin is a feature added to help your non-profit communicate. It is nothing but a forum/message board. If you have used one before, it won't be hard to figure it out. Otherwise, the next items will show you how to use it.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_201508.png" class="ui image" />
+
+### Creating Posts
+
+When you click on "Create New Post", you will be taken to the "Create Post" screen. Fill out the form according to your needs.
+
+- Title: the title of your post, something that will describe it
+- Category: what the post is about
+- Sticky: if the post is important enough, it can stick to the top of the page
+- Message: the content of the post. Text may be formatted using the message toolbar
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">About new bulletin post categories</div>
+    Make sure an administrator creates the bulletin post categories in Settings.
+  </div>
+</div>
+
+### Editing Posts
+
+If you need to edit a post your created, go to the post and click the Edit button, make the changes you need and click "Save".
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_201549.png" class="ui image" />
+
+### Replying
+
+To add a reply, wirte a message in the "Reply" box at the bottom of a post, after all the comments and click submit.
+
+<div class="ui icon message">
+  <i class="info circle icon"></i>
+  <div class="content">
+    <div class="header">About editing replies</div>
+    As of 1.0.0-alpha2, it is not possible to edit post replies.
+  </div>
+</div>
+
+### Announcements
+
+At the main screen of bulletin you will see "Announcements" posts. Those are nothing morethan sticky posts.
+
+If a post is important enough, you can make it an announcement by marking it as a sticky when you create or edit a post.
+
+<div class="ui dividing header" id="settings"><i class="hashtag icon"></i>Settings</div>
 
 This is where admins will set global values for the system.
+
+<img src="/assets/screenshots/1.0.0-alpha2/Screenshot_20180319_201624.png" class="ui image" />
 
 ### General
 
@@ -368,10 +478,10 @@ This is where you set roles and whether or not a role is a "staff" role.
 
 This tab allows you to create membership types, set their prices and the duration of a membership.
 
-##  <i class="hashtag icon" id="cashier"></i> Cashier
+### Bulletin
 
-This is basically a link to Cashier in a new tab.
+This tab allows you to configure bulletin settings.
 
-##  <i class="hashtag icon" id="help"></i> Help
+<div class="ui dividing header" id="help"><i class="hashtag icon"></i>Settings</div>
 
 The Help item takes you to this website where you will find the official documentation for Astral.
