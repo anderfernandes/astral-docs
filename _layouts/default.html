@@ -10,4 +10,21 @@
     {% include footer.html %}
 
   </body>
+
+  <div class="ui fullscreen basic modal">
+    <div class="scrolling content"></div>
+    <div class="actions">
+      <div class="ui cancel button"><i class="close icon"></i>Close</div>
+    </div>
+  </div>
+
+  <script>
+
+    $('img').click(function() {
+      console.log(this.src)
+      $('.ui.modal .scrolling.content').html(`<img src=${this.src} class="ui image" />`)
+      $('.ui.modal').modal('toggle')
+    })
+
+  </script>
 </html>
