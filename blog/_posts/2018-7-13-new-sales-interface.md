@@ -8,13 +8,14 @@ cover: /assets/images/Screenshot_20180713_094947.png
 excerpt: A sneak peak of the new sales screen for admin and cashier.
 ---
 
-Man, it has been a while since I've been able to post anything! If you thought
-Astral was no more, you are wrong! We are working really hard to reach our goal
-to make the next release solid enough for your non-profit's daily needs in managing
-sales, users, members and events.
+It has been a while since I've been able to post anything on here... If you thought
+Astral was no more, you were wrong! We are working really hard to reach our goal,
+which is to make the next release solid enough for your non-profit's daily needs in managing
+sales, users, members and events so we can focus on finally working on the customer
+self service area.
 
-Our third alpha release is going to have several additions that I am planning on
-writing about for the next couple of days. We are stronger than ever!
+Our third alpha release is going to be the best yet! I am planning on
+writing about them for the next couple of days. We are stronger than ever!
 
 In this post I want to show you our new sales screen. Not the one that cashiers
 use to sell tickets, but the one that staff memebrs in your organization will use
@@ -39,6 +40,10 @@ All you have to do now is select if that sale is for a customer or organization,
 select who the customer is, pick the date the event is happening which will fetch
 events ONLY happening that particular day and select products that will be added
 to a sale. Also, you can add as many events as you want to a particular sale. Neat!
+
+Last but not least, you can also select the school grade the students for a particular
+group are in. Are they a group of second graders mixed with third and fourth graders?
+No problem! You can check all that apply. Or none at all!
 
 In the next blog post is going to be about what is new in Calendar. There is quite
 a lot. See you then!
