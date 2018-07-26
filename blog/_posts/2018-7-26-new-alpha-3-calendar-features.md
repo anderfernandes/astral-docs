@@ -2,7 +2,7 @@
 layout: post
 title:  "New alpha 3 calendar features!"
 permalink: /:categories/:title
-date:   2018-7-16 17:45:22 -0500
+date:   2018-7-26 17:45:22 -0500
 categories: alpha3
 cover: /assets/images/Screenshot_20180713_094947.png
 excerpt: Time to take a look at the several improvements we've done to calendar!
