@@ -34,8 +34,21 @@
           <h2>Focus on your visitors. Not on bureaucracy.</h2>
           {{ content }}
         </div>
+        <div class="ui center aligned container">
+          <a class="ui inverted tiny header">Lastest News:</a>
+          <div class="ui divided inverted list">
+            {% for post in site.posts  limit:3 %}
+            <div class="item">
+              <div class="content">
+                <a class="header" href="{{ post.url }}">{{ post.title }}</a>
+                <div class="description">{{ post.date | date: "%A, %B %e, %Y at %r" }}</div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
         <div class="ui center aligned container" style="margin-top: 25vh">
-           &copy;  2017, 2018 @anderfernandes
+           &copy;  2017-2019 @anderfernandes
         </div>
       </div>
     </div>
