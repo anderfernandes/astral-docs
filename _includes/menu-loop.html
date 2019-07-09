@@ -2,12 +2,4 @@
 <a href="/about" class="{% if page.url == '/about' %}active {% endif %}item"><i class="info circle icon"></i>About</a>
 <a href="/blog" class="{% if page.url == '/blog' %}active {% endif %}item"><i class="pencil icon"></i>Blog</a>
 <a href="/screenshots" class="{% if page.url == '/screenshots' %}active {% endif %}item"><i class="image icon"></i>Screenshots</a>
-<div class="ui dropdown item">
-    <i class="book icon"></i>Docs
-    <i class="dropdown icon"></i>
-    <div class="menu">
-      <a href="/docs/1.0.0-alpha3" class="{% if page.url == '/docs/1.0.0-alpha3/' %}active {% endif %}item">1.0.0-alpha3</a>
-      <a href="/docs/1.0.0-alpha2" class="{% if page.url == '/docs/1.0.0-alpha2/' %}active {% endif %}item">1.0.0-alpha2</a>
-      <a href="/docs/1.0.0-alpha1" class="{% if page.url == '/docs/1.0.0-alpha1/' %}active {% endif %}item">1.0.0-alpha1</a>
-    </div>
-  </div>
+<a href="/docs/{{ site.current }}" class="{% if page.url == '/docs' %}active {% endif %}item"><i class="image icon"></i>Docs</a>

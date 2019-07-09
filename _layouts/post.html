@@ -10,7 +10,13 @@ layout: default
 
 <div class="pusher">
   {% include menu-pages.html %}
-  <div class="ui text container" style="padding-top:50px; padding-bottom:50px">
+  <div class="ui fluid container" style="background: linear-gradient(
+    rgba(27,28,29,1),
+    rgba(27,28,29,0.5),
+    rgba(255,255,255,1)
+    ),
+    url('{{ page.cover }}') !important; height:15rem;margin-top:-1rem"></div>
+  <div class="ui text container" style="padding-top:1rem; padding-bottom:1rem; margin">
     <h2 class="ui dividing header">
       <i class="pencil icon"></i>
       <div class="content">
