@@ -2,7 +2,7 @@
 layout: post
 title:  Scobee Education Center is now using Astral!
 permalink: /:categories/:title
-date:   2019-10-3 12:42:10 -0500
+date:   2019-10-4 12:42:10 -0500
 categories: alpha4
 cover: /assets/scobee.jpg
 excerpt: We are proud, excited and ready to work even harder to help them and other organizations educate and inspire their communities.
