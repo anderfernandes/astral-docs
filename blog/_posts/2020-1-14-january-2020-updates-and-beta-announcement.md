@@ -180,7 +180,7 @@ the bottom of the page, which is also optimized for mobile devices.
 - After confirming their own reservation, the group leader will get a confirmation
 letter on their email. The user who created the sale will get one as well.
 
-<img src="/assets/images/Screenshot_20200115_150630.png" class="ui image" />
+<img src="/assets/images/Screenshot_20200115_150921.png" class="ui image" />
 
 The self confirmation process also adds memos when it sends the emails and
 when the reservation has been confirmed. The first one is a system memo and the
