@@ -2,7 +2,7 @@
 layout: post
 title:  A long awaited 2021 progress update!
 permalink: /:categories/:title
-date:   2020-1-16 15:47:02 -0500
+date:   2021-1-16 15:47:02 -0500
 categories: alpha4
 cover: /assets/images/Screenshot_20200114_210030.png
 excerpt: Hello everyone! 2020 was the most challenging year for our generation, and things were not different with me.
