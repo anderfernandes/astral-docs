@@ -34,7 +34,7 @@ to come! Here is how you will create events:
 
 ## Revamped Event Form
 
-<div class="ui 16:9 embed" data-url="/assets/videos/2021-12-24 17-00-18.mp4" data-loop data-autoplay>
+<div class="ui 16:9 embed" data-url="/assets/videos/2021-12-24 17-00-18.mp4" data-loop data-autoplay></div>
 
 On this first one, there's a lot going on. A lot has changed! You can see how the colors are basically
 the same and the feel is familiar, but there's definetely an update to the look, feel and user experience
