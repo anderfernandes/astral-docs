@@ -34,7 +34,9 @@ to come! Here is how you will create events:
 
 ## Revamped Event Form
 
-<div class="ui 16:9 embed" data-url="/assets/videos/2021-12-24 17-00-18.mp4" data-loop data-autoplay></div>
+<video autoplay loop width="100%">
+  <source src="/assets/videos/2021-12-24 17-00-18.mp4">
+</video>
 
 On this first one, there's a lot going on. A lot has changed! You can see how the colors are basically
 the same and the feel is familiar, but there's definetely an update to the look, feel and user experience
@@ -51,7 +53,7 @@ centers have to do now because of the pandemic.
 
 ## Validation
 
-<video autoplay loop>
+<video autoplay loop width="100%">
   <source src="/assets/videos/2021-12-24 17-02-27.mp4">
 </video>
 
@@ -61,7 +63,7 @@ for an invalid date and it correctly told me that I coudln't.
 
 ## Multiple Events
 
-<video autoplay loop>
+<video autoplay loop width="100%">
   <source src="/assets/videos/2021-12-24 17-06-34.mp4">
 </video>
 
@@ -70,7 +72,7 @@ as long as you don't create more than 25 at a time. This number might change, bu
 it so that we don't overload the application. In addition, if there's at least one thing in any of
 the events it is not expecting, it wil not save ANY event.
 
-<video autoplay loop>
+<video autoplay loop width="100%">
   <source src="/assets/videos/2021-12-24 17-09-18.mp4">
 </video>
 
@@ -81,7 +83,7 @@ each event and doesn't change the event type. Pretty handy!
 
 ## All Day Events
 
-<video autoplay loop>
+<video autoplay loop width="100%">
   <source src="/assets/videos/2021-12-24 17-13-48.mp4">
 </video>
 
@@ -91,7 +93,7 @@ why you would create an all day event. In the example above I created a Staff Me
 
 ## Multiple All Day Events
 
-<video autoplay loop>
+<video autoplay loop width="100%">
   <source src="/assets/videos/2021-12-24 17-16-51.mp4">
 </video>
 
@@ -101,7 +103,7 @@ In case you want to create multiple all day events, that is also possible.
 
 Last but not least, all day events are also validated.
 
-<video autoplay loop>
+<video autoplay loop width="100%">
   <source src="/assets/videos/2021-12-24 17-18-11.mp4">
 </video>
 
