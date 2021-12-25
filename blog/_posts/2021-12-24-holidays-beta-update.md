@@ -53,7 +53,7 @@ centers have to do now because of the pandemic.
 
 ## Validation
 
-<video autoplay loop muted>
+<video controls autoplay loop muted>
   <source src="/assets/videos/2021-12-24_17-02-27.mp4">
 </video>
 
@@ -63,7 +63,7 @@ for an invalid date and it correctly told me that I coudln't.
 
 ## Multiple Events
 
-<video autoplay loop muted>
+<video controls autoplay loop muted>
   <source src="/assets/videos/2021-12-24_17-06-34.mp4">
 </video>
 
@@ -72,7 +72,7 @@ as long as you don't create more than 25 at a time. This number might change, bu
 it so that we don't overload the application. In addition, if there's at least one thing in any of
 the events it is not expecting, it wil not save ANY event.
 
-<video autoplay loop muted>
+<video controls autoplay loop muted>
   <source src="/assets/videos/2021-12-24_17-09-18.mp4">
 </video>
 
@@ -83,7 +83,7 @@ each event and doesn't change the event type. Pretty handy!
 
 ## All Day Events
 
-<video autoplay loop muted>
+<video controls autoplay loop muted>
   <source src="/assets/videos/2021-12-24_17-13-48.mp4">
 </video>
 
@@ -93,7 +93,7 @@ why you would create an all day event. In the example above I created a Staff Me
 
 ## Multiple All Day Events
 
-<video autoplay loop muted>
+<video controls autoplay loop muted>
   <source src="/assets/videos/2021-12-24_17-16-51.mp4">
 </video>
 
@@ -103,7 +103,7 @@ In case you want to create multiple all day events, that is also possible.
 
 Last but not least, all day events are also validated.
 
-<video autoplay loop muted>
+<video controls autoplay loop muted>
   <source src="/assets/videos/2021-12-24_17-18-11.mp4">
 </video>
 
