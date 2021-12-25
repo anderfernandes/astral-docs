@@ -34,8 +34,8 @@ to come! Here is how you will create events:
 
 ## Revamped Event Form
 
-<video autoplay loop width="100%">
-  <source src="/assets/videos/2021-12-24 17-00-18.mp4">
+<video autoplay loop>
+  <source src="/assets/videos/2021-12-24_17-00-18.mp4">
 </video>
 
 On this first one, there's a lot going on. A lot has changed! You can see how the colors are basically
@@ -54,7 +54,7 @@ centers have to do now because of the pandemic.
 ## Validation
 
 <video autoplay loop>
-  <source src="/assets/videos/2021-12-24 17-02-27.mp4">
+  <source src="/assets/videos/2021-12-24_17-02-27.mp4">
 </video>
 
 As you are creating events, I've noticed how easy it is to make mistakes. That's why validation
@@ -64,7 +64,7 @@ for an invalid date and it correctly told me that I coudln't.
 ## Multiple Events
 
 <video autoplay loop>
-  <source src="/assets/videos/2021-12-24 17-06-34.mp4">
+  <source src="/assets/videos/2021-12-24_17-06-34.mp4">
 </video>
 
 Sometimes you have to create events for the whole week, or the whole month. Astral can do that,
@@ -73,7 +73,7 @@ it so that we don't overload the application. In addition, if there's at least o
 the events it is not expecting, it wil not save ANY event.
 
 <video autoplay loop>
-  <source src="/assets/videos/2021-12-24 17-09-18.mp4">
+  <source src="/assets/videos/2021-12-24_17-09-18.mp4">
 </video>
 
 Notice how we can select one event or the other, and even delete events in case you change your mind
@@ -84,7 +84,7 @@ each event and doesn't change the event type. Pretty handy!
 ## All Day Events
 
 <video autoplay loop>
-  <source src="/assets/videos/2021-12-24 17-13-48.mp4">
+  <source src="/assets/videos/2021-12-24_17-13-48.mp4">
 </video>
 
 Sometimes you need to create events that will be "at the top" of your Calendar, events that will last
@@ -94,7 +94,7 @@ why you would create an all day event. In the example above I created a Staff Me
 ## Multiple All Day Events
 
 <video autoplay loop>
-  <source src="/assets/videos/2021-12-24 17-16-51.mp4">
+  <source src="/assets/videos/2021-12-24_17-16-51.mp4">
 </video>
 
 In case you want to create multiple all day events, that is also possible.
@@ -104,7 +104,7 @@ In case you want to create multiple all day events, that is also possible.
 Last but not least, all day events are also validated.
 
 <video autoplay loop>
-  <source src="/assets/videos/2021-12-24 17-18-11.mp4">
+  <source src="/assets/videos/2021-12-24_17-18-11.mp4">
 </video>
 
 <hr />
