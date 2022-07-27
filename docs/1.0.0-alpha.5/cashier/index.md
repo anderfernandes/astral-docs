@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Docs | 1.0.0-alpha4 | Cashier
-permalink: /docs/1.0.0-alpha4/cashier
+permalink: /docs/1.0.0-alpha.5/cashier
 ---
 
 <h1 class="ui dividing header">
@@ -31,7 +31,7 @@ permalink: /docs/1.0.0-alpha4/cashier
   </div>
 </div>
 
-##  <i class="hashtag icon"></i> Accessing Cashier
+## <i class="hashtag icon"></i> Accessing Cashier
 
 After Astral has been setup in your organization, you may login using the URL provided to you by the person who set it up. As soon as you access the URL in your browser, you will see the login screen. After you enter your credendials, you will be taken to the Admin dashboard, regardless of your account type.
 
@@ -194,7 +194,7 @@ This reports shows a table in which every line is a payment. The payments displa
 
 Click on your name on the top right corner of the screen and click in "Logout".
 
-##  <i class="hashtag icon"></i> My Account
+## <i class="hashtag icon"></i> My Account
 
 <img src="/assets/images/my-account.png"  class="ui image" />
 
@@ -208,7 +208,7 @@ This is where you go to change your account information if you don't type anythi
   </div>
 </div>
 
-##  <i class="hashtag icon" id="events"></i> Sales
+## <i class="hashtag icon" id="events"></i> Sales
 
 <img src="/assets/images/cashier-sales.png" class="ui image" />
 
@@ -246,7 +246,7 @@ Find the Sale that is going to be paid for, click the Edit button that correspon
   </div>
 </div>
 
-##  <i class="hashtag icon"></i> Members
+## <i class="hashtag icon"></i> Members
 
 <img src="/assets/images/cashier-members.png" class="ui image" />
 

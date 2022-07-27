@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Docs | 1.0.0-alpha4 | Admin
-permalink: /docs/1.0.0-alpha4/admin
+permalink: /docs/1.0.0-alpha.5/admin
 ---
 
 <h1 class="ui dividing header">
