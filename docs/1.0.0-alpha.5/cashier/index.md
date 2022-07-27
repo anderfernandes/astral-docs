@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs | 1.0.0-alpha4 | Cashier
+title: Docs | 1.0.0-alpha.5 | Cashier
 permalink: /docs/1.0.0-alpha.5/cashier
 ---
 

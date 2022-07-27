@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs | 1.0.0-alpha3
+title: Docs | 1.0.0-alpha.5
 label: Docs
 icon: book
 permalink: /docs/1.0.0-alpha.5/

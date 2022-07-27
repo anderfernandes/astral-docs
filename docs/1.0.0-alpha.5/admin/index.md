@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs | 1.0.0-alpha4 | Admin
+title: Docs | 1.0.0-alpha.5 | Admin
 permalink: /docs/1.0.0-alpha.5/admin
 ---
 
